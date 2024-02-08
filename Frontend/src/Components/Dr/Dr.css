@@ -1,0 +1,165 @@
+.dcontainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: rgb(255, 255, 255)
+    ;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0px 50px;
+    align-items: center;
+    background: #F5F5F5;
+    box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.25);
+    flex: 0 1 auto;
+}
+.text{
+    color: #18487F;
+    font-family: Bebas Neue;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.userdetails{
+    display: flex;
+    align-items: center;
+    color: #18487F;
+    font-family: Bebas Neue;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.userroll{
+    padding-left: 10px;
+}
+
+.username{
+    padding-left: 10px;
+}
+
+.mainbody{
+    display: flex;
+    flex-direction: row;
+    min-height: 88vh;
+    max-height: 88vh;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 270px;
+    background: #e2e9f2;
+    box-shadow: 5px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sidebarbuttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+.drequest{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 5px solid #79887D;
+    background: #F5F5F5;
+    width: 240px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #79887D;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0%; /* 0px */
+    letter-spacing: 1.2px;
+    cursor: pointer;
+}
+.dapproved{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    border: 5px solid #79887D;
+    width: 240px;
+    height: 60px;
+    margin-bottom: 20px;
+    flex-shrink: 0;
+    color: #79887D;
+    background: #F5F5F5;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0%; /* 0px */
+    letter-spacing: 1.2px;
+}
+
+.drejected{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    border: 5px solid #79887D;
+    width: 240px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #79887D;
+    background: #F5F5F5;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0%; /* 0px */
+    letter-spacing: 1.2px;
+}
+
+.content{
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.logout{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: #B43239;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0%; /* 0px */
+    letter-spacing: 1.8px;
+    cursor: pointer;
+}
+
+.sidebarbuttons .drequest.active {
+    border: 5px solid #18487F;
+    color: #18487F;
+
+  }
+  
+  .sidebarbuttons .dapproved.active {
+    border: 5px solid #18487F;
+    color: #18487F;
+  }
+
+  .sidebarbuttons .drejected.active {
+    border: 5px solid #18487F;
+    color: #18487F;
+  }

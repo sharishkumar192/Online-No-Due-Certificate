@@ -1,0 +1,54 @@
+h2{
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.contentcontainer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.tb{
+    justify-content: space-evenly;
+}
+
+th{
+    display: flex;
+    align-items: start;
+}
+
+.spacer{
+    width: 20px;
+}
+.spacerv{
+    height: 10px;
+}
+
+.submit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submit_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.submit{
+    width: 150px;
+    height: 40px;
+    justify-content: center;
+    border-radius: 10px;
+    border: 5px solid #3B61EB;
+    background: #3B61EB;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0%; /* 0px */
+    letter-spacing: 1.6px;
+    cursor: pointer;
+}
