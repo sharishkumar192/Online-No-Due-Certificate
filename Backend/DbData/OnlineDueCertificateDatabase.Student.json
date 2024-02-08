@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "654a5ace50fb4e230d3132b2"
+  },
+  "Userid": "harish_m230712cs@nitc.ac.in",
+  "PassoutYear": 2024,
+  "Programme": "CSIS",
+  "IsAllDRApproved": false,
+  "IsFAApproved": false
+}]

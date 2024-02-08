@@ -1,0 +1,9 @@
+[{
+  "_id": {
+    "$oid": "654a5db650fb4e230d3132c1"
+  },
+  "StudentId": "harish_m230712cs@nitc.ac.in",
+  "DRID": "random@nitc.ac.in",
+  "IsStatusApproved": false,
+  "Remarks": null
+}]
